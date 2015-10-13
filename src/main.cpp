@@ -966,7 +966,7 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     {
         nSubsidy = 50000000000 * COIN;
     }
-	else if (pindexBest->nHeight+1 > 2 && pindexBest->nHeight+1 < 28658 ) 
+	else if (pindexBest->nHeight+1 > 2) 
     {
         nSubsidy = 0 * COIN;
     }
@@ -2100,9 +2100,7 @@ bool CBlock::AcceptBlock()
     CBlockIndex* pindexPrev = (*mi).second;
     int nHeight = pindexPrev->nHeight+1;
 
-    if (IsProofOfWork() && nHeight > LAST_POW_BLOCK)
-        return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
-
+ 
     if (IsProofOfStake() && nHeight < MODIFIER_INTERVAL_SWITCH)
         return DoS(100, error("AcceptBlock() : reject proof-of-stake at height %d", nHeight));
 
