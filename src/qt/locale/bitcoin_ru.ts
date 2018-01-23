@@ -23,17 +23,21 @@ Copyright © 2014 The Cryptobyte developers</source>
     <message>
         <location line="+15"/>
         <source>
-This is experimental software.
+This is experimental software. First world inflationary crypto with exchange regulation. 
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Эта программа написана на основе открытого криптографического ПО Биткоин. Она является частью системы распределенных вычислений и обеспечивает работу БРКВ "Криптобайт". 
+Per aspera ad astra, эта программа написана на основе открытого криптографического ПО Биткоин, представляет собой часть вычислительного комплекса БЭСМ-7. Она является частью системы распределенных вычислений и обеспечивает работу сети. 
 
 Распространяется на правах лицензии MIT/X13, см. файл license.txt или http://www.opensource.org/licenses/mit-license.php.
 
-Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit (http://www.openssl.org/) и криптографическое ПО, написанное Eric Young (eay@cryptsoft.com) и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
+Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit (http://www.openssl.org/), так же криптографическое ПО, написанное Eric Young (eay@cryptsoft.com) и ПО для работы с UPnP, написанное Thomas Bernard.
+
+DrGii
+
+</translation>
     </message>
 </context>
 <context>
@@ -1358,7 +1362,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+16"/>
         <source>Your current spendable balance</source>
-        <translation>Баланс, доступный в настоящее время</translation>
+        <translation>Баланс кошелька в CB, доступный в настоящее время для трат</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1368,7 +1372,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Баланс добытых криптобайт, который ещё не созрел</translation>
+        <translation>Баланс добытых криптобайт, который ещё не созрел. Должен созреть через 20 подтверждений</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1378,7 +1382,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+16"/>
         <source>Your current total balance</source>
-        <translation>Ваш суммарный баланс</translation>
+        <translation>Ваш суммарный баланс, с учетом доступных и ожидающих зрелости CB</translation>
     </message>
     <message>
         <location line="+46"/>
